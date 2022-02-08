@@ -6,7 +6,7 @@ contract Staking {
     using Address for address;
 
     // Parameters
-    uint128 public constant ValidatorThreshold = 1 ether;
+    uint128 public constant ValidatorThreshold = 1000 ether;
     uint32 public constant MinimumRequiredNumValidators = 4;
 
     // Properties
